@@ -357,14 +357,19 @@ nav ul li a.active {
     gap: 8px;
 }
 
-.skill-item i,
-.skill-svg {
+.skill-item i {
     font-size: 26px;
     color: #38bdf8;
+}
+
+.skill-svg {
     width: 26px;
     height: 26px;
 }
 
+.skill-svg.white {
+    filter: brightness(0) invert(1);
+}
 .skill-item span {
     font-size: 13px;
     font-weight: 500;
