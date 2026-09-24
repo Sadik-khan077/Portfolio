@@ -229,7 +229,8 @@ nav ul li a.active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 35px;
+    padding: 30px;
 }
 
 .profile-img-container img {
@@ -280,6 +281,16 @@ nav ul li a.active {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 2px;
+}
+
+.skill-svg-express {
+    width: 26px;
+    height: 26px;
+    filter: brightness(0) invert(1);
+}
+
+.skill-svg.white {
+    filter: brightness(0) invert(1);
 }
 
 .stat-bento p {
